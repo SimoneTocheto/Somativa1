@@ -5,7 +5,6 @@ import random
 
 app = FastAPI()
 
-# 127.0.0.1:8000/
 @app.get("/")
 async def root():
     return {"message": "hello World"}
